@@ -1,0 +1,262 @@
+h1,
+h2,
+h3,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  color: #a80e0e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navCustom img {
+  padding-top: 2rem;
+  padding-left: 5rem;
+  width: 100%;
+  height: 100%;
+  zoom: 0.59;
+}
+
+#navCustom {
+  background-color: #281923;
+  opacity: 61%;
+  padding-right: 3.5%;
+}
+#navItem a:nth-child(n + 6) {
+  background-color: #a80e0e;
+}
+.navbar {
+  position: sticky;
+}
+#navItem a:hover {
+  border-top: 2px solid #ffaa00;
+}
+#demoInput::-webkit-inner-spin-button,
+#cartInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#cartInput {
+  width: 1.4rem;
+  border: none;
+  background-color: #ffaa00;
+  color: #a80e0e;
+  font-weight: bolder;
+  margin-left: 1rem;
+  text-align: center;
+}
+#navItem a {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn-sm {
+  border-color: #ffaa00;
+  border-style: solid;
+  border-width: 2px;
+  height: 50px;
+  width: 35px;
+}
+
+#demoInput {
+  border: none;
+  width: 1.4rem;
+  text-align: center;
+}
+#cartButton {
+  margin-top: 5px;
+  margin-left: 20rem;
+}
+.btn-warning {
+  background-color: #ffaa00;
+  border-radius: 16px;
+  color: black;
+}
+.nav-item button,
+.nav-item button:hover {
+  color: #a80e0e;
+}
+
+.nav-pills .nav-item .active {
+  background-color: #ffaa00;
+  color: #a80e0e;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+table {
+  flex-direction: flex-box;
+  height: 100%;
+  width: 100%;
+  border: 1px;
+  border-color: #f2f2f2;
+  border-style: ridge;
+}
+
+tr,
+td,
+th {
+  border: none;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.name {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  border-width: thin;
+}
+.name:focus {
+  background-color: white;
+}
+.opinion {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  border-width: thin;
+  font-weight: 200;
+}
+.opinion:focus {
+  background-color: white;
+}
+.formRev {
+  margin-left: 3000px;
+  height: 0px;
+  transition: all 0.5s ease-out;
+}
+
+.bg {
+  background-color: #a80e0e;
+  color: white;
+}
+
+.meal_pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.review-button {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: brown;
+  background-color: #ffaa00;
+  width: 125px;
+  justify-content: center;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 32px;
+  border: none;
+}
+.review-button:hover {
+  opacity: 61%;
+}
+.submit {
+  background-color: #ffaa00;
+  color: white;
+  width: 80px;
+  justify-content: center;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 32px;
+  border: none;
+}
+.submit:hover {
+  opacity: 61%;
+}
+.cover::before {
+  content: url("projectImages/projectImages/logo-red.svg");
+}
+
+ul a {
+  color: black;
+}
+
+#contact a {
+  color: white;
+}
+#infoContact {
+  background-color: #a80e0e;
+}
+.footerDetails {
+  margin-top: 1rem;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #a80e0e;
+  color: aliceblue;
+  align-content: space-between;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-left: 4rem;
+  margin-right: 10rem;
+}
+
+#contact li {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+
+#contact li img {
+  padding-right: 1rem;
+}
+
+#contact li a {
+  padding-left: 60px;
+  color: white;
+  margin: 0px;
+  text-decoration: none;
+}
+#insta {
+  padding: 0;
+}
+.badge {
+  margin: 2%;
+  padding: 1%;
+  color: #a80e0e;
+  font-size: x-large;
+}
+.cartAlign {
+  padding-left: 9rem;
+}
+#rev img {
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#mealImg img {
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.hide-dish {
+  display: none;
+}
+.cartButtn {
+  display: flex;
+}
